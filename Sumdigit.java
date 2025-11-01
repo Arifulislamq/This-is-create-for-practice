@@ -8,11 +8,11 @@ Scanner input = new Scanner(System.in);
 System.out.println("Enter any number:");
 
 int num = input.nextInt();
-int sum=0;
+int result=0;
 int n = num;
 while(n!=0){
 int remainder = n%10;
-sum = sum + remainder;
+result = result + remainder;
 n= n/10;
 
 }
